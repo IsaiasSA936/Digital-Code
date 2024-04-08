@@ -1,0 +1,113 @@
+.InicioParallax{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(18, 223, 227, 0.6),rgba(229, 85, 12, 0.9)) 
+    ,url(../img/significado-coworking.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    filter:brightness(0.9);
+}
+.botonSlider{
+    padding: 5px;
+    background-color: rgba(221, 85, 18, 0.9);
+}
+.botonSlider:hover{
+    padding: 10px;
+    background-color: rgba(174, 64, 13, 0.9);
+    border-color: 1px solid #fff;
+    border-radius: 10%;
+}
+.imgParner{
+    width: 250px;
+    filter:grayscale(100%);
+    opacity:.5;
+}
+.imgParner:hover{
+    transition: 1s;
+    filter:grayscale(0%);
+    opacity:1;
+    cursor: pointer;
+    transform: scale(1.25);
+
+}
+.ir-arriba{
+    display:none;
+    background:  #f52b14;
+    padding: 10px;
+    background-repeat:no-repeat;
+    border-color: 1px solid #fff;
+    border-radius: 10%;
+    font-size:20px;
+    color:white;
+    cursor:pointer;
+    position:fixed;
+    bottom:10px;
+    margin-bottom: 20px;
+    right:25px;
+    z-index:2;
+    }
+.ir-arriba:hover{
+    background:  #0DCCCF;
+    color: white;
+    border-color: 1px solid #fff;
+    }
+.Parallax3{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(231, 97, 13, 0.6),rgba(17, 221, 217, 0.9)) 
+    ,url(../img/koworking.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    filter:brightness(0.9);
+}
+.btnRegistro{
+    background-color: transparent;
+    padding: 5px;
+    border: 1px solid #f52b14;
+    border-radius: 45px;
+    color: #f52b14;
+    width: 600px;
+    text-decoration: none;
+    text-align: center;
+}
+.btnRegistro:hover{
+    background-color: #f52b14;
+    color: #fff;
+    border-color: #999;
+    transition: 1s;
+}
+.btnReg{
+    background-color: transparent;
+    padding: 5px;
+    border: 1px solid #fff;
+    border-radius: 45px;
+    color: #fff;
+    width: 600px;
+    text-decoration: none;
+    text-align: center;
+}
+.btnReg:hover{
+    background-color: #f52b14;
+    color: #fff;
+    border-color: #999;
+    transition: 1s;
+}
+.btnLink{
+    background-color: #f52b14;
+    padding: 5px;
+    border-radius: 45px;
+    color: #fff;
+    width: 600px;
+    text-decoration: none;
+    text-align: center;
+}
+.btnLink:hover{
+    background-color:#fff;
+    color:1px solid #f52b14;;
+}
+.countdown {
+    font-size: 2rem;
+    margin-top: 20px;
+}
